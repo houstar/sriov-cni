@@ -1,0 +1,16 @@
+github.com/containernetworking/cni v0.4.0 h1:oWucloJfoPBFrFUGJ1JB69DI5Y6gL7GWIBEU69fzSvo=
+github.com/containernetworking/cni v0.4.0/go.mod h1:LGwApLUm2FpoOfxTDEeq8T9ipbpZ61X79hmU3w8FmsY=
+github.com/coreos/go-iptables v0.0.0-20151211183357-90456be57fcb h1:cW2yWWWlgcppc2JKFdGbpJSMorMKxWFrpCnZmQDG2Z8=
+github.com/coreos/go-iptables v0.0.0-20151211183357-90456be57fcb/go.mod h1:/mVI274lEDI2ns62jHCDnCyBF9Iwsmekav8Dbxlm1MU=
+github.com/j-keck/arping v1.0.1 h1:XrO9juQieAQHE7DlwT7zFLUK2u3Oi/4Uz2B3ZTxvhxg=
+github.com/j-keck/arping v1.0.1/go.mod h1:aJbELhR92bSk7tp79AWM/ftfc90EfEi2bQJrbBFOsPw=
+github.com/onsi/ginkgo v1.2.1-0.20151202141238-7f8ab55aaf3b h1:FEaHlNQ9tg13FwU63g1aqRNpEITaN0FR7zBqNpxnxYI=
+github.com/onsi/ginkgo v1.2.1-0.20151202141238-7f8ab55aaf3b/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
+github.com/onsi/gomega v0.0.0-20151007035656-2152b45fa28a h1:KfNOeFvoAssuZLT7IntKZElKwi/5LRuxY71k+t6rfaM=
+github.com/onsi/gomega v0.0.0-20151007035656-2152b45fa28a/go.mod h1:C1qb7wdrVGGVU+Z6iS04AVkA3Q65CEZX59MT0QO5uiA=
+github.com/vishvananda/netlink v0.0.0-20160625175855-77483a0e697e h1:IPG9flQwKnxZ0xL7uyh9r5yaMoHyPEoqCsGPmULIKew=
+github.com/vishvananda/netlink v0.0.0-20160625175855-77483a0e697e/go.mod h1:+SR5DhBJrl6ZM7CoCKvpw5BKroDKQ+PJqOg65H/2ktk=
+github.com/vishvananda/netns v0.0.0-20160430053723-8ba1072b58e0 h1:3LFlY74a0V5YKdn9v2WTr7beXh4pscTJuqxs+cszCGA=
+github.com/vishvananda/netns v0.0.0-20160430053723-8ba1072b58e0/go.mod h1:ZjcWmFBXmLKZu9Nxj3WKYEafiSqer2rnvPr0en9UNpI=
+golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c h1:VwygUrnw9jn88c4u8GD3rZQbqrP/tgas88tPUbBxQrk=
+golang.org/x/sys v0.0.0-20210124154548-22da62e12c0c/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
