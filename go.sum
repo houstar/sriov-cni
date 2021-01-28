@@ -4,6 +4,8 @@ github.com/coreos/go-iptables v0.0.0-20151211183357-90456be57fcb h1:cW2yWWWlgcpp
 github.com/coreos/go-iptables v0.0.0-20151211183357-90456be57fcb/go.mod h1:/mVI274lEDI2ns62jHCDnCyBF9Iwsmekav8Dbxlm1MU=
 github.com/j-keck/arping v1.0.1 h1:XrO9juQieAQHE7DlwT7zFLUK2u3Oi/4Uz2B3ZTxvhxg=
 github.com/j-keck/arping v1.0.1/go.mod h1:aJbELhR92bSk7tp79AWM/ftfc90EfEi2bQJrbBFOsPw=
+github.com/juju/fslock v0.0.0-20160525022230-4d5c94c67b4b h1:FQ7+9fxhyp82ks9vAuyPzG0/vVbWwMwLJ+P6yJI5FN8=
+github.com/juju/fslock v0.0.0-20160525022230-4d5c94c67b4b/go.mod h1:HMcgvsgd0Fjj4XXDkbjdmlbI505rUPBs6WBMYg2pXks=
 github.com/onsi/ginkgo v1.2.1-0.20151202141238-7f8ab55aaf3b h1:FEaHlNQ9tg13FwU63g1aqRNpEITaN0FR7zBqNpxnxYI=
 github.com/onsi/ginkgo v1.2.1-0.20151202141238-7f8ab55aaf3b/go.mod h1:lLunBs/Ym6LB5Z9jYTR76FiuTmxDTDusOGeTQH+WWjE=
 github.com/onsi/gomega v0.0.0-20151007035656-2152b45fa28a h1:KfNOeFvoAssuZLT7IntKZElKwi/5LRuxY71k+t6rfaM=

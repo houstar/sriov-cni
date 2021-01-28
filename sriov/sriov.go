@@ -15,12 +15,20 @@ import (
 	"github.com/containernetworking/cni/pkg/skel"
 	"github.com/containernetworking/cni/pkg/version"
 	"github.com/j-keck/arping"
+	"github.com/juju/fslock"
 	"github.com/vishvananda/netlink"
 
 	. "github.com/hustcat/sriov-cni/config"
 )
 
+// global lock variable
+var lock *fslock.Lock
+
 func init() {
+	// safe here to use self as file lock
+	path, _ := os.Readlink("/proc/self/exe")
+	lock = fslock.New(path)
+
 	// this ensures that main runs only on main thread (thread group leader).
 	// since namespace ops (unshare, setns) are done for a single thread, we
 	// must ensure that the goroutine does not jump from OS thread to thread
@@ -387,5 +395,8 @@ func getVFDeviceName(master string, vf int) (string, error) {
 }
 
 func main() {
+	lock.Lock()
+	defer lock.Unlock()
+
 	skel.PluginMain(cmdAdd, cmdDel, version.Legacy)
 }
